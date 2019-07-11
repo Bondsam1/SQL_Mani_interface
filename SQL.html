@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<title>我的数据库实验</title>
+<head>
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+#3tag {
+	margin-left: 100px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<h1>我的数据库实验</h1>
+</div>
+
+<div id="nav">
+<a href="a.html">学生信息系统</a><br>
+<a href="manipulate.html">表的操作</a><br>
+<strong>SQL语句</strong><br>
+<a href="showAll.php">查看所有</a><br>
+
+
+</div>
+
+<div id="section">
+<h2>SQL语句</h2>
+<p>请输入你的代码</p>
+<form action="query.php" id="SQLform">
+	<input type="submit" name="提交">
+</form>
+<textarea name="query" form="SQLform" rows="10" cols="80"></textarea>
+</div>
+
+<div id="footer">
+Copyright @ me
+</div>
+
+</body>
+</html>
